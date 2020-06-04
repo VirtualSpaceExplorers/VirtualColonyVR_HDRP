@@ -23,9 +23,12 @@ namespace Assets.Src.Controls.Command
 
         public GameObject AffectedGameObject { get; set; }
 
+        public Rigidbody RigidBody { get; set; }
+
         public void ExecuteMovement()
         {
-            AffectedGameObject.transform.Translate(Acceleration);
+            RigidBody.velocity = Acceleration;
+            //if (Acceleration != Vector3.zero)
         }
     }
 

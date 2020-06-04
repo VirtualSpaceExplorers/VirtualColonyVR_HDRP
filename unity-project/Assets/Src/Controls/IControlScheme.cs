@@ -12,7 +12,7 @@ namespace Assets.Src.Controls
     {
         Action StartupActions();
 
-        IMovementCommand MovePlayer(GameObject gameObject);
+        IMovementCommand MovePlayer(GameObject gameObject, Rigidbody rigidbody);
 
         IPlayerRotationCommand RotatePlayer(GameObject gameObject, Transform cameraTransform);
 

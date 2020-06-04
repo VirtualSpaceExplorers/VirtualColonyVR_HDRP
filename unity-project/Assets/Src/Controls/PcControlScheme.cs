@@ -27,21 +27,20 @@ namespace Assets.Src.Controls
             return () => { Cursor.lockState = CursorLockMode.Locked; Debug.Log("Started Pc Controls"); };
         }
 
-        public IMovementCommand MovePlayer(GameObject playerObject)
+        public IMovementCommand MovePlayer(GameObject playerObject, Rigidbody rigidbody)
         {
-            var tickVector = new Vector3();
-            foreach(var key in _movementControls.Keys)
-            {
-                if (Input.GetKey(key))
-                {
-                    tickVector += _movementControls[key];
-                }
-            }
+            var verticalInput = Input.GetAxis("Vertical");
+            var horizontalInput = Input.GetAxis("Horizontal");
+
+            var currentSpeedVector = new Vector3(horizontalInput * _moveSpeed, 0, verticalInput * _moveSpeed);
+            currentSpeedVector *= Time.deltaTime;
+            currentSpeedVector = playerObject.transform.TransformDirection(currentSpeedVector);
 
             return new KeyboardMoveCommand
             {
-                Acceleration = tickVector,
-                AffectedGameObject = playerObject
+                Acceleration = currentSpeedVector,
+                AffectedGameObject = playerObject,
+                RigidBody = rigidbody
             };
         }
 
