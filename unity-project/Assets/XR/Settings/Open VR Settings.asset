@@ -16,6 +16,6 @@ MonoBehaviour:
   InitializationType: 1
   EditorAppKey: application.generated.unity.unityproject.exe
   IsLegacy: 0
-  ActionManifestFileRelativeFilePath: E:/Unity Projects/Nexus Aurora/FeatureRequest_001/unity-project/Assets/StreamingAssets\SteamVR\actions.json
+  ActionManifestFileRelativeFilePath: E:/Unity Projects/Nexus Aurora/vr-component/unity-project/Assets/StreamingAssets\SteamVR\actions.json
   MirrorViewMode: 3
   HasCopiedDefaults: 1
