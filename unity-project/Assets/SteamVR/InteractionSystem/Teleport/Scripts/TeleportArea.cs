@@ -39,9 +39,15 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		public void Start()
 		{
-			visibleTintColor = Teleport.instance.areaVisibleMaterial.GetColor( tintColorId );
-			highlightedTintColor = Teleport.instance.areaHighlightedMaterial.GetColor( tintColorId );
-			lockedTintColor = Teleport.instance.areaLockedMaterial.GetColor( tintColorId );
+			// Default Code
+			//visibleTintColor = Teleport.instance.areaVisibleMaterial.GetColor( tintColorId );
+			//highlightedTintColor = Teleport.instance.areaHighlightedMaterial.GetColor(tintColorId);
+			//lockedTintColor = Teleport.instance.areaLockedMaterial.GetColor(tintColorId);
+
+			// This fixes the error that says : Material doesn't have a color property _TintColor - Edited: 6/10/2020 @KosakiOnodera
+			Teleport.instance.areaVisibleMaterial.SetColor(tintColorId, visibleTintColor);
+			Teleport.instance.areaHighlightedMaterial.SetColor(tintColorId, highlightedTintColor);
+			Teleport.instance.areaLockedMaterial.SetColor(tintColorId, lockedTintColor);
 		}
 
 

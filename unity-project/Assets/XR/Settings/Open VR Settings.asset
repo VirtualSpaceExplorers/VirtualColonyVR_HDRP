@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StereoRenderingMode: 1
   InitializationType: 1
-  EditorAppKey: application.generated.unity.legacy.unityproject.839265408.exe
-  IsLegacy: 1
-  ActionManifestFileRelativeFilePath: E:/Unity Projects/Nexus Aurora/FeatureRequest_001/unity-project/Assets/StreamingAssets\SteamVR\legacy_manifest.json
+  EditorAppKey: application.generated.unity.unityproject.exe
+  IsLegacy: 0
+  ActionManifestFileRelativeFilePath: E:/Unity Projects/Nexus Aurora/FeatureRequest_001/unity-project/Assets/StreamingAssets\SteamVR\actions.json
   MirrorViewMode: 3
-  HasCopiedDefaults: 0
+  HasCopiedDefaults: 1

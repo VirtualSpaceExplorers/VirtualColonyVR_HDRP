@@ -38,7 +38,7 @@ namespace Valve.VR
 #endif
 
         const BuildTarget recommended_BuildTarget = BuildTarget.StandaloneWindows64;
-        const bool recommended_ShowUnitySplashScreen = false;
+        const bool recommended_ShowUnitySplashScreen = true; // Set to true to stop the pop up from showing up: 6/9/2020 - @KosakiOnodera
         const bool recommended_DefaultIsFullScreen = false;
         const int recommended_DefaultScreenWidth = 1024;
         const int recommended_DefaultScreenHeight = 768;
