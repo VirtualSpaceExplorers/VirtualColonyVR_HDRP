@@ -5,6 +5,9 @@
     "com.unity.ide.vscode": "1.2.1",
     "com.unity.test-framework": "1.1.14",
     "com.unity.ugui": "1.0.0",
+    "com.unity.xr.interactionsubsystems": "1.0.1",
+    "com.unity.xr.management": "3.2.10",
+    "com.valve.openvr": "https://github.com/ValveSoftware/steamvr_unity_plugin.git#UnityXRPlugin",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -36,5 +39,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.valve.openvr": {
+      "revision": "UnityXRPlugin",
+      "hash": "db9e35089d6c1d7b7c4846b7ca5fe25c47163482"
+    }
   }
 }
