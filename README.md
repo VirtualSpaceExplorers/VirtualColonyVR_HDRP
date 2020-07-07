@@ -7,7 +7,7 @@ The Nexus Aurora Foundation VR Experience with the aim of creating a platform of
 
 # Current Project Specifications
 
- - using Unity version: 2020.1.0b10
+ - using Unity version: [Download => 2020.1.0b10](https://unity3d.com/unity/beta/2020.1.0b10)
  - using High Definition Rendering Pipeline
  - Custom made assets-manager.
 
@@ -15,9 +15,9 @@ The Nexus Aurora Foundation VR Experience with the aim of creating a platform of
 ![enter image description here](https://media.discordapp.net/attachments/713435730109792327/719644547876913152/unknown.png?width=1061&height=531)
  - [ ] Release 1 (28th of June)
 	 - [x] [PC controls](https://github.com/Nexus-Aurora/vr-unity-demo/issues/12)
-	 - [ ] [VR controls](https://github.com/Nexus-Aurora/vr-unity-demo/issues/7)
+	 - [x] [VR controls](https://github.com/Nexus-Aurora/vr-unity-demo/issues/7)
 	 - [x] [Upgrade unity version](https://github.com/Nexus-Aurora/vr-unity-demo/issues/6)
-	 - [ ] [Build an assets downloader](https://github.com/Nexus-Aurora/vr-unity-demo/issues/8)
+	 - [x] [Build an assets downloader](https://github.com/Nexus-Aurora/vr-unity-demo/issues/8)
 	 - [ ] [Plan a future rendering pipeline](https://github.com/Nexus-Aurora/vr-unity-demo/issues/10)
 	 - [ ] [Build a pickup/interact system with { "Doors", "rocks", "windows", etc }](https://github.com/Nexus-Aurora/vr-unity-demo/issues/9)
 	 - [ ] [Create a beautiful atmostpheric mars skybox](https://github.com/Nexus-Aurora/vr-unity-demo/issues/11)
@@ -34,7 +34,7 @@ The Nexus Aurora Foundation VR Experience with the aim of creating a platform of
 **Feature done?** After you have completed your feature you can create a pull request back to the original repository. Make sure you target our develop branch otherwise we will ask you to remake the pull request.
 
 # Coding conventions
-We will use [Microsoft's coding conventions](https://github.com/ktaranov/naming-convention/blob/master/C#%20Coding%20Standards%20and%20Naming%20Conventions.md) to for maximum readability and easy because mostly every company uses it which means using it here will benefit you for working in companies. 
+We will use [Microsoft's coding conventions](<https://github.com/ktaranov/naming-convention/blob/master/C%23 Coding Standards and Naming Conventions.md>) to for maximum readability and easy because mostly every company uses it which means using it here will benefit you for working in companies. 
 
 # Design inspirations
 ![enter image description here](http://h2847766.stratoserver.net/pydio/public/69fe889fd/dl/Social-Media-Post-Suggestion.png?ct=true)
