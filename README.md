@@ -24,7 +24,7 @@ The Nexus Aurora Foundation VR Experience with the aim of creating a platform of
 
 **How to start** First you navigate to the GitHub repository that contains all our open source code! [ Click Here](https://github.com/Nexus-Aurora/na-unity-virtual-colony-experimental/tree/develop "https://github.com/Nexus-Aurora/na-unity-virtual-colony-experimental/tree/develop") Then you click the fork button in the top right.
 
-**You have made your forked repository!** A new repository will show up looking exactly like ours but it yours! Now you can use your favorite git software to get the code from the server to your machine. And develop however you want too. Don't forget to commit! If you need help with setting up your development environment, please ask in the #software for help from your fellow developers or make an issue on the github.
+**You have made your forked repository!** A new repository will show up looking exactly like ours but it yours! Now you can use your favorite git software to get the code from the server to your machine. And develop however you want too. Don't forget to commit! If you need help with setting up your development environment, please ask in the #software channel on discord for help from your fellow developers or make an issue on the github. (https://discord.gg/kKAkk7)
 
 **Feature done?** After you have completed your feature you can create a pull request back to the original repository. Make sure you target our develop branch otherwise we will ask you to remake the pull request.
 
