@@ -20,11 +20,16 @@ The Nexus Aurora Foundation VR Experience with the aim of creating a platform of
  - Release 2
 
 # Want to Contribute?
-**Pick a feature to build** If you look above here you can find features that we need built for the next release or if you have a great idea feel free to start on your own idea in your forked branch and present us with the results. If you have any questions please ask the @Tech Leads or direct message @NLDukey (VR-CTO) for information on discord. 
-**How to start** First you navigate to the GitHub repository that contains all our open source code! [ Click Here](https://github.com/Nexus-Aurora/na-unity-virtual-colony-experimental/tree/develop "https://github.com/Nexus-Aurora/na-unity-virtual-colony-experimental/tree/develop") Then you click the fork button in the top right 
-**You have made your forked repository!** A new repository will show up looking exactly like ours but it yours! Now you can use your favorite git software to get the code from the server to your machine. And develop however you want too. Don't forget to commit! If you need help with setting up your development environment, please ask in the #software for help from your fellow developers or make an issue on the github. 
+**Pick a feature to build** If you look above here you can find features that we need built for the next release or if you have a great idea feel free to start on your own idea in your forked branch and present us with the results.
+
+**How to start** First you navigate to the GitHub repository that contains all our open source code! [ Click Here](https://github.com/Nexus-Aurora/na-unity-virtual-colony-experimental/tree/develop "https://github.com/Nexus-Aurora/na-unity-virtual-colony-experimental/tree/develop") Then you click the fork button in the top right.
+
+**You have made your forked repository!** A new repository will show up looking exactly like ours but it yours! Now you can use your favorite git software to get the code from the server to your machine. And develop however you want too. Don't forget to commit! If you need help with setting up your development environment, please ask in the #software for help from your fellow developers or make an issue on the github.
+
 **Feature done?** After you have completed your feature you can create a pull request back to the original repository. Make sure you target our develop branch otherwise we will ask you to remake the pull request.
+
 # Coding conventions
-We will use [Microsoft's coding conventions](<https://github.com/ktaranov/naming-convention/blob/master/C%23 Coding Standards and Naming Conventions.md>) to for maximum readability and easy because mostly every company uses it which means using it here will benefit you for working in companies. 
+We will use [Microsoft's coding conventions](<https://github.com/ktaranov/naming-convention/blob/master/C%23 Coding Standards and Naming Conventions.md>) to for maximum readability and easy because mostly every company uses it which means using it here will benefit you for working in companies.
+
 # Design inspirations
 ![enter image description here](http://h2847766.stratoserver.net/pydio/public/69fe889fd/dl/Social-Media-Post-Suggestion.png?ct=true)
