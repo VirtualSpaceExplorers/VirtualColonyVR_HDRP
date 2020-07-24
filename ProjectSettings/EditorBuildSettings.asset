@@ -4,7 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9005eeca0df7ce74ea7f8a492b0dfb15,
-      type: 2}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Terrain Demo Scene.unity
+    guid: 65572c27234f49123af0301f12fe62ff
+  m_configObjects: {}
